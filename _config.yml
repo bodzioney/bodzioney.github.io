@@ -12,7 +12,7 @@ title                    : "Ethan Bodzioney"
 title_separator          : "-"
 name                     : &name "Ethan Bodzioney"
 description              : &description "personal description"
-url                      : https://ethanbodzioney.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://bodzioney.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ethanbodzioney/ethanbodzioney.github.io"
 
