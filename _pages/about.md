@@ -16,7 +16,7 @@ Previously, I did my B.S. at University of Maryland, College Park where I worked
 News
 ======
 - **August 2024:** I was at [School on Univalent Mathematics at the University of Minnesota](https://unimath.github.io/minneapolis2024/)!
-- **June 2024:**: I was at [OPLSS at Boston University](https://www.cs.uoregon.edu/research/summerschool/summer24/)!
+- **June 2024:** I was at [OPLSS at Boston University](https://www.cs.uoregon.edu/research/summerschool/summer24/)!
 - **May 2024:** I graduated from the University of Maryland with a Bachelor of Science!
 
 Teaching
