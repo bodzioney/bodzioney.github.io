@@ -13,6 +13,12 @@ My research interests center around programming language theory, and in particul
 
 Previously, I did my B.S. at University of Maryland, College Park where I worked with [Leonidas Lampropoulos](https://lemonidas.github.io/) on random program generation.
 
-I'll put more stuff here when I have more stuff to put
+News
 ======
+- **August 2024:** I was at [School on Univalent Mathematics at the University of Minnesota](https://unimath.github.io/minneapolis2024/)!
+- **June 2024:**: I was at [OPLSS at Boston University](https://www.cs.uoregon.edu/research/summerschool/summer24/)!
+- **May 2024:** I graduated from the University of Maryland with a Bachelor of Science!
 
+Teaching
+======
+- CSC324: Principles of Programming Languages. Fall 2024

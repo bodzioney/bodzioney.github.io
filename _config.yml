@@ -25,7 +25,7 @@ author:
   name             : "Ethan Bodzioney"
   pronouns         : # example: "she/her"  
   bio              : "Incoming CS PhD student at University of Toronto"
-  location         : "Toronto, CA"
+  location         : "Toronto, ON"
   employer         : "University of Toronto"
   uri              : # URL
   email            : "ethan@cs.toronto.edu" 
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
