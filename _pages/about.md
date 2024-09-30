@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming CS PhD student at the [University of Toronto](https://www.utoronto.ca/) working with [Ningning Xie](https://xnning.github.io/). 
+I am an incoming CS PhD student at the [University of Toronto](https://www.utoronto.ca/) working with [Ningning Xie](https://xnning.github.io/) on algebraic effects. 
 
-My research interests center around programming language theory, and in particular functional programming. I am currently studying type systems, logic, compilers, and a lot of random mathematical subjects.
+My research interests center around programming language theory, and in particular functional programming. I am currently studying type systems, logic, and compilers.
 
 Previously, I did my B.S. at University of Maryland, College Park where I worked with [Leonidas Lampropoulos](https://lemonidas.github.io/) on random program generation.
 
