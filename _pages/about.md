@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 I'm a CS MSc student at the [University of Toronto](https://www.utoronto.ca/)
-with [Ningning Xie](https://xnning.github.io/), graduating soon. Here I've done
-work on parallel effect handlers, Rocq formalizations, and Lean tooling for
-software engineering.
+with [Ningning Xie](https://xnning.github.io/), graduating soon. During my time
+here I've done work on parallel effect handlers, Rocq formalizations, and Lean
+tooling for software engineering.
 
 My research interests center around programming language theory and theorem
 provers. I currently spend lots of time thinking about Lean and ways to improve
