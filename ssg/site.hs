@@ -4,6 +4,7 @@ import           Data.List (sortBy)
 import           Data.Monoid (mappend)
 import           Data.Ord (Down(..), comparing)
 import           Hakyll
+import           System.FilePath (takeBaseName, takeDirectory, (</>))
 
 
 --------------------------------------------------------------------------------
@@ -31,14 +32,14 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
 
     match "posts/*" $ do
-        route $ setExtension "html"
+        route $ setExtension "html" `composeRoutes` dirRoute
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
     create ["blog.html"] $ do
-        route idRoute
+        route $ constRoute "blog/index.html"
         compile $ do
             posts <- recentFirstByMeta =<< loadAll "posts/*"
             let blogCtx =
@@ -47,7 +48,7 @@ main = hakyllWith config $ do
                     defaultContext
 
             makeItem ""
-                >>= loadAndApplyTemplate "templates/blog.html"    blogCtx
+                >>= loadAndApplyTemplate "templates/post-list.html" blogCtx
                 >>= loadAndApplyTemplate "templates/default.html" blogCtx
                 >>= relativizeUrls
 
@@ -73,6 +74,14 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+-- Route foo/bar.html to foo/bar/index.html for clean URLs
+dirRoute :: Routes
+dirRoute = customRoute $ \ident ->
+    let path = toFilePath ident
+        dir  = takeDirectory path
+        base = takeBaseName path
+    in  dir </> base </> "index.html"
 
 recentFirstByMeta :: (MonadMetadata m) => [Item a] -> m [Item a]
 recentFirstByMeta items = do
